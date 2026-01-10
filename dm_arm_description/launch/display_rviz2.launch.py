@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
-    package_name = 'dmarm_description'
+    package_name = 'dm_arm_description'
     urdf_name = 'dm_arm.urdf'
 
     ld = LaunchDescription()
