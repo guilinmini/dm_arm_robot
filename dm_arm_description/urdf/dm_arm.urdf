@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by
-Stephen Brawner (brawner@gmail.com) 
+Stephen Brawner (brawner@gmail.com)
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot name="dm_arm">
@@ -34,7 +34,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/base_link.STL" />
+          filename="package://dm_arm_description/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -48,7 +48,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/base_link.STL" />
+          filename="package://dm_arm_description/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -74,7 +74,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link1.STL" />
+          filename="package://dm_arm_description/meshes/link1.STL" />
       </geometry>
       <material
         name="">
@@ -88,7 +88,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link1.STL" />
+          filename="package://dm_arm_description/meshes/link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -115,7 +115,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link2.STL" />
+          filename="package://dm_arm_description/meshes/link2.STL" />
       </geometry>
       <material
         name="">
@@ -129,11 +129,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link2.STL" />
+          filename="package://dm_arm_description/meshes/link2.STL" />
       </geometry>
     </collision>
   </link>
-  
+
   <link
     name="link3">
     <inertial>
@@ -156,7 +156,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link3.STL" />
+          filename="package://dm_arm_description/meshes/link3.STL" />
       </geometry>
       <material
         name="">
@@ -170,11 +170,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link3.STL" />
+          filename="package://dm_arm_description/meshes/link3.STL" />
       </geometry>
     </collision>
   </link>
-  
+
   <link
     name="link4">
     <inertial>
@@ -197,7 +197,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link4.STL" />
+          filename="package://dm_arm_description/meshes/link4.STL" />
       </geometry>
       <material
         name="">
@@ -211,11 +211,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link4.STL" />
+          filename="package://dm_arm_description/meshes/link4.STL" />
       </geometry>
     </collision>
   </link>
-  
+
   <link
     name="link5">
     <inertial>
@@ -238,7 +238,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link5.STL" />
+          filename="package://dm_arm_description/meshes/link5.STL" />
       </geometry>
       <material
         name="">
@@ -252,11 +252,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link5.STL" />
+          filename="package://dm_arm_description/meshes/link5.STL" />
       </geometry>
     </collision>
   </link>
- 
+
   <link
     name="link6">
     <inertial>
@@ -279,7 +279,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link6.STL" />
+          filename="package://dm_arm_description/meshes/link6.STL" />
       </geometry>
       <material
         name="">
@@ -293,11 +293,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link6.STL" />
+          filename="package://dm_arm_description/meshes/link6.STL" />
       </geometry>
     </collision>
   </link>
-  
+
   <link
     name="link7_1">
     <inertial>
@@ -320,7 +320,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link7_1.STL" />
+          filename="package://dm_arm_description/meshes/link7_1.STL" />
       </geometry>
       <material
         name="">
@@ -334,11 +334,11 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link7_1.STL" />
+          filename="package://dm_arm_description/meshes/link7_1.STL" />
       </geometry>
     </collision>
   </link>
-  
+
   <link
     name="link7_2">
     <inertial>
@@ -361,7 +361,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link7_2.STL" />
+          filename="package://dm_arm_description/meshes/link7_2.STL" />
       </geometry>
       <material
         name="">
@@ -375,7 +375,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://dmarm_description/meshes/link7_2.STL" />
+          filename="package://dm_arm_description/meshes/link7_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -441,7 +441,7 @@ Stephen Brawner (brawner@gmail.com)
 
   <joint name="joint7" type="prismatic">
     <!-- 0.1-0.072482=0.027518 -->
-    <origin xyz="1.5501E-05 0.0010151 -0.027518" rpy="0 0 -0.0036826" /> 
+    <origin xyz="1.5501E-05 0.0010151 -0.027518" rpy="0 0 -0.0036826" />
     <parent link="link_hand" />
     <child link="link7_1" />
     <axis xyz="0 1 0" />
