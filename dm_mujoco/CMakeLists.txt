@@ -15,17 +15,15 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(mujoco REQUIRED)
-
 
 # ==== MuJoCo 路径 =====
-set(MUJOCO_PATH $ENV{HOME}/.mujoco/mujoco210)
-set(MUJOCO_INCLUDE_DIR ${MUJOCO_PATH}/include)
-set(MUJOCO_LIB ${MUJOCO_PATH}/lib/libmujoco210.so)
+# set(MUJOCO_PATH $ENV{HOME}/.mujoco/mujoco210)
+# set(MUJOCO_INCLUDE_DIR ${MUJOCO_PATH}/include)
+# set(MUJOCO_LIB ${MUJOCO_PATH}/lib/libmujoco210.so)
 
 include_directories(
   include
-  /usr/local/include/mujoco/mujoco.h
+  /usr/local/include
   # ${mujoco_INCLUDE_DIRS}
 )
 
@@ -36,7 +34,6 @@ add_executable(dm_mujoco_node
 ament_target_dependencies(dm_mujoco_node
   rclcpp
   std_msgs
-  mujoco
 )
 
 target_link_libraries(dm_mujoco_node

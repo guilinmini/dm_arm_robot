@@ -5,7 +5,7 @@ class DmMujocoNode : public rclcpp::Node {
 public:
   DmMujocoNode() : Node("dm_mujoco_node") {
     RCLCPP_INFO(this->get_logger(), "dm_mujoco node starting...");
-    this->declare_parameter<std::string>("model_path", "");
+    this->declare_parameter<std::string>("model_path", "config/dm_arm.xml");
     this->declare_parameter<double>("step_dt", 0.01);
 
     model_path_ = this->get_parameter("model_path").as_string();
